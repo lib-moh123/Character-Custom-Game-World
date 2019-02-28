@@ -7,6 +7,9 @@ TagManager:
   - Body
   - Hat
   - Wheel
+  - Nose
+  - Wing
+  - Engine
   layers:
   - Default
   - TransparentFX

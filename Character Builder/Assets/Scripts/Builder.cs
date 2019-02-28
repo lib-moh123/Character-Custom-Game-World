@@ -7,9 +7,10 @@ public class Builder : MonoBehaviour {
 	int TypePick;
 	public GameObject[] Body;
 	public GameObject[] Hat;
-	//public GameObject[] Boost;
-	public GameObject[] Wheel;
-	public static int [] Parts = {0, 0, 0};
+	public GameObject[] Nose;
+	public GameObject[] Wing;
+	public GameObject[] Engine;
+	int[] Parts = {0, 0, 0, 0, 0};
 	int PartLength;
 
 	int PartShow;
@@ -38,10 +39,26 @@ public class Builder : MonoBehaviour {
 				G.transform.position = new Vector3 (0, -100, 0);
 			}
 		}
-		foreach (GameObject G in GameObject.FindGameObjectsWithTag("Wheel")) {
-			if (G.name == "Wheel (" + Parts[2] + ")") {
-				G.transform.position = GameObject.Find("Body (" + Parts[0] + ")/WheelPos").transform.position;
-				G.transform.rotation = GameObject.Find("Body (" + Parts[0] + ")/WheelPos").transform.rotation;
+		foreach (GameObject G in GameObject.FindGameObjectsWithTag("Nose")) {
+			if (G.name == "Nose (" + Parts[2] + ")") {
+				G.transform.position = GameObject.Find("Body (" + Parts[0] + ")/NosePos").transform.position;
+				G.transform.rotation = GameObject.Find("Body (" + Parts[0] + ")/NosePos").transform.rotation;
+			} else {
+				G.transform.position = new Vector3 (0, -100, 0);
+			}
+		}
+		foreach (GameObject G in GameObject.FindGameObjectsWithTag("Wing")) {
+			if (G.name == "Wing (" + Parts[3] + ")") {
+				G.transform.position = GameObject.Find("Body (" + Parts[0] + ")").transform.position;
+				G.transform.rotation = GameObject.Find("Body (" + Parts[0] + ")").transform.rotation;
+			} else {
+				G.transform.position = new Vector3 (0, -100, 0);
+			}
+		}
+		foreach (GameObject G in GameObject.FindGameObjectsWithTag("Engine")) {
+			if (G.name == "Engine (" + Parts[4] + ")") {
+				G.transform.position = GameObject.Find("Body (" + Parts[0] + ")").transform.position;
+				G.transform.rotation = GameObject.Find("Body (" + Parts[0] + ")").transform.rotation;
 			} else {
 				G.transform.position = new Vector3 (0, -100, 0);
 			}
@@ -58,9 +75,17 @@ public class Builder : MonoBehaviour {
 		TypePick = 1;
 		PartLength = Hat.Length;
 	}
-	public void WheelBtn() {
+	public void NoseBtn() {
 		TypePick = 2;
-		PartLength = Wheel.Length;
+		PartLength = Nose.Length;
+	}
+	public void WingBtn() {
+		TypePick = 3;
+		PartLength = Wing.Length;
+	}
+	public void EngineBtn() {
+		TypePick = 4;
+		PartLength = Engine.Length;
 	}
 	public void Right() {
 		PartShow++;
