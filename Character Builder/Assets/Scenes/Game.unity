@@ -665,6 +665,46 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.name
+      value: HighSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedEndAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 323918743}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
 --- !u!1 &297734376 stripped
@@ -800,6 +840,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
         type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 323918743}
@@ -808,6 +853,26 @@ PrefabInstance:
       propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 323918742}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.name
+      value: HealthIncrease
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HealthIncreseStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb194467884060419738d397f6669de, type: 3}
 --- !u!114 &323918742 stripped
@@ -902,6 +967,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 323918743}
@@ -913,8 +982,38 @@ PrefabInstance:
       propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.name
+      value: HighSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedEndAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+--- !u!1 &327908939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1147988390212330626, guid: e5a7eb1b748ebe342ab4d10b5f176cfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 327908938}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &359574790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1013,6 +1112,46 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.name
+      value: HighSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedEndAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 323918743}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
 --- !u!1 &359574791 stripped
@@ -1717,6 +1856,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
         type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 323918743}
@@ -1725,6 +1869,26 @@ PrefabInstance:
       propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 323918742}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.name
+      value: HealthIncrease
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HealthIncreseStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb194467884060419738d397f6669de, type: 3}
 --- !u!1 &768496397
@@ -2268,6 +2432,46 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.name
+      value: HighSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedEndAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 323918743}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
 --- !u!1 &940521989 stripped
@@ -3011,6 +3215,46 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.name
+      value: HighSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedEndAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 323918743}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
 --- !u!1 &1083313631 stripped
@@ -3177,6 +3421,46 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.name
+      value: HighSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedEndAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 323918743}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
 --- !u!1 &1131151275 stripped
@@ -5106,6 +5390,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
         type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 323918743}
@@ -5114,6 +5403,26 @@ PrefabInstance:
       propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 323918742}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.name
+      value: HealthIncrease
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HealthIncreseStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb194467884060419738d397f6669de, type: 3}
 --- !u!1001 &1835381559
@@ -5214,6 +5523,46 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.name
+      value: HighSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedEndAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 323918743}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
 --- !u!1 &1835381560 stripped
@@ -5521,6 +5870,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
         type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 323918743}
@@ -5529,6 +5883,26 @@ PrefabInstance:
       propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 323918742}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.name
+      value: HealthIncrease
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HealthIncreseStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195831656841248525, guid: dfb194467884060419738d397f6669de,
+        type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb194467884060419738d397f6669de, type: 3}
 --- !u!1001 &1916685860
@@ -5629,6 +6003,46 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.name
+      value: HighSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedStartAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HighSpeedEndAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.startAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: powerup.endAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 323918742}
+    - target: {fileID: 187146887, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 323918743}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a7eb1b748ebe342ab4d10b5f176cfb, type: 3}
 --- !u!1 &1916685861 stripped
@@ -6553,6 +6967,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowerUpController
       objectReference: {fileID: 0}
+    - target: {fileID: 7754126253619100973, guid: 96c08cc35bedbc94693d267e9402a132,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 497042021}
+    - target: {fileID: 7754126253619100972, guid: 96c08cc35bedbc94693d267e9402a132,
+        type: 3}
+      propertyPath: powerups.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754126253619100972, guid: 96c08cc35bedbc94693d267e9402a132,
+        type: 3}
+      propertyPath: powerupPrefab
+      value: 
+      objectReference: {fileID: 327908939}
     - target: {fileID: 7754126253619100963, guid: 96c08cc35bedbc94693d267e9402a132,
         type: 3}
       propertyPath: m_LocalPosition.x
