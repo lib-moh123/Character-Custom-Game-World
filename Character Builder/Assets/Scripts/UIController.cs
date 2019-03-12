@@ -42,10 +42,17 @@ public class UIController : MonoBehaviour {
         _seconds = 0;
         SceneManager.LoadScene("Start");
 	}
-		
 
-	// Update is called once per frame
-	void Update () {
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "HealthPower")
+        {
+            health.text = "Health: " + playerController.health;
+        }
+    }
+
+    // Update is called once per frame
+    void Update () {
         health.text = "Health: " + playerController.health;
         _seconds += Time.deltaTime;
         timer.text = _minute + ":" + (int)_seconds;

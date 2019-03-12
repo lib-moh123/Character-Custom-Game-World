@@ -7,7 +7,6 @@ public class PowerupActions : MonoBehaviour
     [SerializeField]
     private PlayerController playerController;
 
-
     public void HighSpeedStartAction()
     {
         playerController.speed *= 2;
