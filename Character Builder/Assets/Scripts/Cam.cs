@@ -13,6 +13,6 @@ public class Cam : MonoBehaviour {
 	
 	void Update () {
 		transform.position = Vector3.Lerp (transform.position, new Vector3 (Car.position.x, Car.position.y + Offset.y, Car.position.z) + Car.forward * Offset.z, Time.deltaTime * 5);
-		transform.LookAt (Car.position);
+		transform.LookAt (Car.position + Car.transform.forward * 0.5f);
 	}
 }
