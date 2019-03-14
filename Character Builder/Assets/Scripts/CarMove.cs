@@ -6,6 +6,8 @@ public class CarMove : MonoBehaviour {
 
 	public float Speed;
 	public float BrakePower;
+	public float first;
+	public float second;
 	Rigidbody RB;
 
 	void Start () {
@@ -25,7 +27,7 @@ public class CarMove : MonoBehaviour {
 		Vector3 LocVel = transform.InverseTransformDirection(RB.velocity);
 		transform.RotateAround(transform.position, transform.up * Input.GetAxisRaw("Horizontal"), Time.deltaTime * 75);
 		foreach (WheelCollider Wheel in GetComponentsInChildren<WheelCollider>()) {
-			Wheel.radius += Mathf.Sin (Time.time * 2) * Time.deltaTime * 0.25f;
+			Wheel.radius += Mathf.Sin (Time.time * first) * Time.deltaTime * second;
 			if (Input.GetAxisRaw("Vertical") > 0) {
 				if (LocVel.z < 15) {
 					Wheel.motorTorque = Input.GetAxisRaw("Vertical") * Speed;
@@ -51,6 +53,5 @@ public class CarMove : MonoBehaviour {
 				}
 			}
 		}
-		print (LocVel);
 	}
 }
