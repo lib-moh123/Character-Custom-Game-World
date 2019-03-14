@@ -65,7 +65,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
+  m_LastLoadedLayoutName: Default
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 711, y: 492}
+  m_MaxSize: {x: 18006, y: 14042}
   vertical: 0
-  controlID: 1778
+  controlID: 4316
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1091
     height: 731
-  m_MinSize: {x: 436, y: 492}
-  m_MaxSize: {x: 14006, y: 14042}
+  m_MinSize: {x: 434, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 1779
+  controlID: 4317
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,10 +180,10 @@ MonoBehaviour:
     y: 460
     width: 1091
     height: 271
-  m_MinSize: {x: 436, y: 271}
-  m_MaxSize: {x: 14006, y: 10021}
+  m_MinSize: {x: 434, y: 271}
+  m_MaxSize: {x: 14004, y: 10021}
   vertical: 0
-  controlID: 1780
+  controlID: 4318
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,14 +367,14 @@ MonoBehaviour:
     height: 439
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 325.890152810071
+  lastFramingTime: 2158.2920744825733
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.43662748, y: 0.19148424, z: 0.4574534}
+    m_Target: {x: -56.5, y: 1.333243, z: 29.479996}
     speed: 2
-    m_Value: {x: -0.43662748, y: 0.19148424, z: 0.4574534}
+    m_Value: {x: -56.5, y: 1.333243, z: 29.479996}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -402,13 +402,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.07511864, y: 0.91866916, z: -0.21287772, w: 0.32417178}
+    m_Target: {x: -0.118113674, y: -0.83950394, z: 0.20224202, w: -0.49028608}
     speed: 2
-    m_Value: {x: 0.07511864, y: 0.91866916, z: -0.21287772, w: 0.32417178}
+    m_Value: {x: 0.118113674, y: 0.83950394, z: -0.20224202, w: 0.49028608}
   m_Size:
-    m_Target: 2.169406
+    m_Target: 19.503628
     speed: 2
-    m_Value: 2.169406
+    m_Value: 19.503628
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -446,10 +446,10 @@ MonoBehaviour:
     height: 250
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 283a0000
-    m_LastClickedID: 14888
-    m_ExpandedIDs: e6fbffff00000000
+    scrollPos: {x: 0, y: 227.00024}
+    m_SelectedIDs: 48350000
+    m_LastClickedID: 13640
+    m_ExpandedIDs: 9800ffff469cffff84c5ffff44effffff0f9ffff20fbffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -494,9 +494,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 552.8
-    width: 443
-    height: 250
+    y: 534
+    width: 509
+    height: 268
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
@@ -535,20 +535,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\James\Documents\GitHub\Character-Custom-Game-World\Character
     Builder
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 47}
-    m_SelectedIDs: 82310000
-    m_LastClickedID: 12674
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 782a0000
+    m_LastClickedID: 10872
     m_ExpandedIDs: 00000000782a0000d83200002033000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0

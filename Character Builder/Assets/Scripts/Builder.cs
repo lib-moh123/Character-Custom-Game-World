@@ -128,7 +128,7 @@ public class Builder : MonoBehaviour {
 			}
 		}
 		BuildCanvas.SetActive(false);
-		//GameCanvas.SetActive(true);
+		GameCanvas.SetActive(true);
 		GetComponent<CarMove>().enabled = true;
 		GameObject.Find("Main Camera").GetComponent<Cam>().enabled = true;
 		GetComponent<Builder>().enabled = false;

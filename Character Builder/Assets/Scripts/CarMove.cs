@@ -8,6 +8,7 @@ public class CarMove : MonoBehaviour {
 	public float BrakePower;
 	public float first;
 	public float second;
+	public GameObject Menu;
 	Rigidbody RB;
 
 	void Start () {
@@ -45,13 +46,16 @@ public class CarMove : MonoBehaviour {
 			if (Wheel.GetGroundHit(out hit)) {
 				if (Input.GetAxisRaw("Vertical") == 0) {
 					RB.velocity -= new Vector3 (RB.velocity.x / BrakePower, 0, RB.velocity.z / BrakePower);
-				} else if (!Input.GetKey (KeyCode.LeftShift)){
+				} else if (!Input.GetKey (KeyCode.LeftShift) && !Input.GetKey (KeyCode.RightShift)){
 					if (Mathf.Abs(LocVel.x) > 0) {
 						LocVel.x = LocVel.x / BrakePower;
 						RB.velocity = transform.TransformDirection(LocVel);
 					}
 				}
 			}
+		}
+		if (Input.GetKeyDown (KeyCode.M)) {
+			Menu.SetActive (!Menu.active);
 		}
 	}
 }
